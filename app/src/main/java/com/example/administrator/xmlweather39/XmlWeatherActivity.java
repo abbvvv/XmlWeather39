@@ -9,6 +9,6 @@ public class XmlWeatherActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_xml_weather);
-        
+        System.out.println("构建");
     }
 }
